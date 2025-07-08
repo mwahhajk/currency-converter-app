@@ -1,0 +1,45 @@
+body{
+  font-size: 30px;
+}
+
+.container{
+  width: 40%;
+  border: 1px solid black;
+  margin: auto;
+  margin-top:15vh;
+  padding:19px;
+}
+
+.select-container{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.select-container select{
+  width: 260px;
+  height: 40px;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.amount-container{
+  width:85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.amount-container input{
+  height: 34px;
+}
+
+.result-container{
+  text-align: center;
+}
+
+.result-container button{
+  width: 90px;
+  height: 35px;
+  border-radius: 5px;
+}
